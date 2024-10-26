@@ -1,6 +1,12 @@
 /* HEADER */
 
-html,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -241,7 +247,7 @@ a:hover {
     text-decoration: none;
     /* Вимкнення підкреслення */
     border-radius: 5px;
-    display: none;
+    display: block;
     /* Сховати кнопку за замовчуванням */
     transition: opacity 0.5s ease;
     /* Додати плавність появи/зникнення */
@@ -415,9 +421,9 @@ form {
 
     .scrollToTop {
         position: fixed;
-        bottom: 20px;
+        bottom: 15px;
         /* Відступ від нижнього краю */
-        right: 20px;
+        right: 15px;
         /* Відступ від правого краю */
         padding: 8px 15px;
         background-color: #A032FA;
