@@ -6,6 +6,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -410,6 +411,26 @@ form {
         /* Змінюємо напрямок на вертикальний */
         padding: 20px;
         /* Зменшуємо відступи */
+    }
+
+    .scrollToTop {
+        position: fixed;
+        bottom: 20px;
+        /* Відступ від нижнього краю */
+        right: 20px;
+        /* Відступ від правого краю */
+        padding: 8px 15px;
+        background-color: #A032FA;
+        color: white;
+        text-decoration: none;
+        /* Вимкнення підкреслення */
+        border-radius: 5px;
+        display: none;
+        /* Сховати кнопку за замовчуванням */
+        transition: opacity 0.5s ease;
+        /* Додати плавність появи/зникнення */
+        opacity: 0;
+        /* Початкова непрозорість */
     }
 
     .my-name {
