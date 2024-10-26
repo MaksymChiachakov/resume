@@ -421,6 +421,13 @@ form {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .photo {
+        width: 100%;
+        height: auto;
+        /* Адаптує ширину кожного зображення */
+    }
+}
 
 /* Стилі для екранів менше 768px (мобільні пристрої) */
 @media (max-width: 768px) {
