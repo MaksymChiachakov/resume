@@ -415,6 +415,12 @@ form {
     font-size: 24px;
 }
 
+@media (max-width: 1430px) {
+    .my-avatar-img {
+        opacity: 0;
+    }
+}
+
 
 /* Стилі для екранів менше 768px (мобільні пристрої) */
 @media (max-width: 768px) {
