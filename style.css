@@ -45,6 +45,9 @@ header {
 
 
 @media (max-width: 1024px) {
+    .seperator {
+        display: none !important;
+    }
 
     /* Для планшетів */
     .present {
@@ -444,6 +447,10 @@ form {
         height: auto;
         /* Адаптує ширину кожного зображення */
     }
+
+    .seperator {
+        display: none !important;
+    }
 }
 
 @media (max-width: 320px) {
@@ -461,8 +468,9 @@ form {
         padding: 12px 12px;
     }
 
+
     .projets-infos h4 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .projets-infos p {
@@ -529,6 +537,15 @@ form {
         right: 8px;
         bottom: 8px;
     }
+}
+
+/* .my-avatar {
+    display: none !important;
+} */
+
+.projets-infos h4 {
+    font-size: 40px;
+    font-family: 'Ultra';
 }
 
 /* Стилі для екранів менше 768px (мобільні пристрої) */
